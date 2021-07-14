@@ -37,3 +37,6 @@ Will my account get blocked?
 => Instagram actually allows unlimited post uploads unlike other restricted things like liking , commenting / hourly basis after which you get rated limited!
 => in theory you could upload infinitley but that'd make lots of requests and get your insta blocked for few hours
 => Hence it's neccessary to have delay between posts.
+
+ADDITIONAL:
+=> you can upload your project to heroku or other cloud computing service to run it 24/7 :)
