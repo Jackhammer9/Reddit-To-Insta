@@ -25,8 +25,8 @@ def Upload(link , title , author):
             bot.upload_photo(link, caption=captionPost)
         else:
             bot.upload_video(link , caption = captionPost) #video posting might not work i am lokking into a solution
-        print("sleeping for 5 minutes")
-        time.sleep(5*60) #sleep after posting for 5 minutes so not to spam API
+        print("sleeping for 15 minutes")
+        time.sleep(15*60) #sleep after posting for 5 minutes so not to spam API
     except Exception as e:
         print(e)
         print("Something Was Wrong Not sure what")
@@ -113,7 +113,7 @@ while True:
                     file = open('PostContent.jpeg' , 'rb')
                     name = file.name
                     file.close()
-                    uploaded.append(submission.url) #adding url to the dat file
+                    uploaded.append(submission.url) #adding url to the data file
                     with open('data.txt', 'w') as f:
                         for item in uploaded:
                             f.write(f"{item} \n")
