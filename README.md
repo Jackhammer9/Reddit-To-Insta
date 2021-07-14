@@ -30,7 +30,7 @@ How Do I Start Using It?
 => the programme which choose a random caption for each post 
 => make sure you have a data.txt file in your script location
 => run the bot and see it do it's magic!
-=> Bot should upload evrey 5 minutes OR more
+=> Bot should upload evrey 15 minutes OR more
 
 Will my account get blocked?
 => unless you have a decent time between uploading posts you are good to go!
