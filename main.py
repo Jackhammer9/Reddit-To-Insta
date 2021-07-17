@@ -19,7 +19,7 @@ def Upload(link , title , author):
         f'{title} \n credits: {author} on reddit \n YOUR HASHTAGS HERE' ,
         f'{title} \n credits: {author} on reddit \n YOUR HASHTAGS HERE'
     ]
-    captionPost = Captions[random.randint(0,len(captions)-1)] #choosing random caption for post
+    captionPost = Captions[random.randint(0,len(Captions)-1)] #choosing random caption for post
     try:
         if postType == 'i':
             bot.upload_photo(link, caption=captionPost)
